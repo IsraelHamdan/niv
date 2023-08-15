@@ -1,0 +1,106 @@
+@import url(vars.css);
+
+.bg {
+  background-color: var(--color-background);
+}
+
+.cabecalho {
+  background-color: var(--color-background);
+  height: 3.75rem;
+  border: none;
+  width: 100%;
+  overflow-x: 100%;
+}
+
+.cabecalho_btn {
+  border: none;
+  color: var(--color-background);
+  background-color: var(--color-bg-btn);
+  font-family: var(--font-famliy-body);
+  text-align: center;
+  margin-right: 1.9rem;
+  height: 2.5rem;
+}
+
+.cabecalho_btn:hover {
+  background-color: var(--color-bg-btn-cabecalho-hover);
+}
+
+.main {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+
+.super-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  padding: 4rem;
+  align-items: center;
+  margin-right: 1rem;
+  flex: row, center, nowrap;
+}
+
+.container-receita {
+  display: flex;
+  background-color: var(--color-bg-cards);
+  box-shadow: 3px 3px 3px var(--color-shadow-card);
+  opacity: 95%;
+  border-radius: 15px;
+  width: 18.8rem;
+}
+
+.container-receitas_list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  font-family: var(--font-famliy-body);
+  color: black;
+}
+
+.container-receitas_list--items {
+  display: flex;
+  flex-direction: row;
+  padding-top: -10px;
+  flex-wrap: nowrap;
+}
+
+#container-receitas_img {
+  padding: 2rem;
+  width: auto;
+  height: auto;
+}
+
+.container-receitas_titulo {
+  display: flex;
+  padding-left: 0.9rem;
+  padding-top: 1rem;
+  flex-wrap: nowrap;
+  font-family: var(--font-famliy-body);
+}
+
+.receitas-list_checkbox {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-left: -1rem;
+  border: none;
+}
+
+.rodape {
+  background-color: var(--color-bg-rodape);
+  height: 1.5625rem;
+  font-family: var(--font-famliy-body);
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  font-size: 22px;
+  overflow-y: -117rem;
+  position: relative;
+  width: 100%;
+}

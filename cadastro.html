@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/Styles/cadas.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body class="bg " style="border-color: #fcf8e8;">
+  <nav class="cabecalho container-fluid">
+    <header class="btn-group">
+      <a href="./home.html">
+        <button class="cabecalho_btn btn-primary">Início</button>
+      </a>
+      <a href="./cadastro.html">
+        <button class="cabecalho_btn btn-primary">Cadastro</button>
+      </a>
+      <a href="./receitas.html">
+        <button class="cabecalho_btn btn-primary">Receitas</button>
+      </a>
+    </header>
+  </nav>
+  <main class="main container-fluid">
+    <div class="title">
+      <h1 class="title-text">Efetue seu cadastro</h1>
+    </div>
+    <form action="">
+      <section id="secao" class="flex-column">
+        <div class="mb-3 mx-1 form-label">
+          <label for="nome" class="col-1 col-form-label form-label_text">Nome</label>
+          <div class="col-6">
+            <input type="text" id="form-campos" class="form-control" name="nome">
+          </div>
+        </div>
+        <div class="mb-3 mx-1  form-label">
+          <label for="email" class="col-1 col-form-label form-label_text">Email</label>
+          <div class="col-6">
+            <input type="email" id="form-campos" class="form-control" name="email">
+          </div>
+        </div>
+        <div class="mb-3 mx-1 form-label">
+          <label for="cep" class="col-1 col-form-label form-label_text">Cep</label>
+          <div class="col-5">
+            <input type="number" id="form-campos" class="form-control" name="cep">
+          </div>
+        </div>
+        <div class="mb-3 mx-1 form-label campo-cep">
+          <label for="Rua" class="col-1 col-form-label form-label_text">Rua</label>
+          <div class="col-6">
+            <input type="text" id="form-campos" class="form-control" name="Rua">
+          </div>
+        </div>
+      </section>
+      <section id="secao aside" class="flex-row flex-wrap ">
+        <div class="mb-3 mx-1 form-label">
+          <label for="N°" class="col-1 col-form-label form-label_text">N°</label>
+          <div class="col-2">
+            <input type="number" id="form-campos" class="form-control" name="N°">
+          </div>
+        </div>
+        <div class="mb-3 mx-1  form-label">
+          <label for="Complemento" class="col-1 col-form-label form-label_text">Complemento</label>
+          <div class="col-3">
+            <input type="email" id="form-campos" class="form-control" name="Complemento">
+          </div>
+        </div>
+      </section>
+      <section id="secao aside" class="flex-row lineButtons">
+        <div class="mb-3 mx-1  form-label">
+          <label for="Complemento" class="col-1 col-form-label form-label_text">Cidade</label>
+          <div class="col-3">
+            <input type="text" id="form-campos" class="form-control" name="Complemento">
+          </div>
+        </div>
+        <div class="mb-3 mx-1  form-label">
+          <label for="Complemento" class="col-1 col-form-label form-label_text">UF</label>
+          <div class="col-3">
+            <input type="text" id="form-campos" class="form-control" name="Complemento">
+          </div>
+          <button id="btn" class="btn btn-outline-light">Cadastre-se</button>
+        </div>
+      </section>
+    </form>
+  </main>
+  <footer class="rodape">Receiteria da Inês &copy;</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+</html>

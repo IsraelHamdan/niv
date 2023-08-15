@@ -1,0 +1,87 @@
+@import url("./vars.css");
+
+.bg {
+  background-color: var(--color-background);
+  height: 60px;
+}
+
+.bg::before {
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+}
+
+.cabecalho {
+  background-color: var(--color-background);
+  height: 2.5rem;
+  border: none;
+  width: 100%;
+  overflow-x: 100%;
+  height: 3.75rem;
+}
+
+.main {
+  height: calc(100vh - 100px);
+}
+
+.cabecalho_btn {
+  border: none;
+  color: var(--color-background);
+  background-color: var(--color-bg-btn);
+  font-family: var(--font-famliy-body);
+  text-align: center;
+  font-size: 18px;
+  margin-right: 1.9rem;
+  height: 2.5rem;
+}
+
+.cabecalho_btn:hover {
+  background-color: var(--color-bg-btn-cabecalho-hover);
+}
+
+.title {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.title-text {
+  font-family: var(--font-family-title);
+  font-size: 4.38rem;
+  margin: 2rem 0 0 27rem;
+  color: var(--color-bg-titulo);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subtitle {
+  font-family: var(--font-famliy-body);
+  color: var(--color-bg-titulo);
+}
+
+#button-link {
+  background-color: var(--color-bg-btn);
+  border: none;
+  border-radius: 12px;
+  font-family: var(--font-famliy-body);
+  font-weight: 500;
+  box-shadow: 2px 2px 2px var(--color-btn-shadow);
+}
+
+.rodape {
+  background-color: var(--color-bg-rodape);
+  height: 2.5rem;
+  font-family: var(--font-famliy-body);
+  text-align: center;
+  color: black;
+  font-weight: 800;
+  font-size: 22px;
+  overflow-y: -117rem;
+  position: relative;
+  width: 100%;
+}
