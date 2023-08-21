@@ -50,6 +50,7 @@
   font-size: 4.38rem;
   margin: 2rem 0 0 27rem;
   color: var(--color-bg-titulo);
+  text-align: center;
 }
 
 .banner {
